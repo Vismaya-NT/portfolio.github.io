@@ -1,1 +1,234 @@
-# portfolio.github.io
+<!--hey... -->
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Vismaya N T</title>
+    <meta name="title" content="Vismaya N T" />
+    <meta
+      name="description"
+      content="Student • Enthusiast • Learner"
+    />
+    <meta
+      name="keywords"
+      content="Vismaya N T, Computer Science, Engineering Student, Portfolio, HTML, Resume, BE, CSE"
+    />
+    <meta name="author" content="Vismaya N T" />
+    <meta name="language" content="English" />
+    <meta name="copyright" content="Vismaya N T © 2024" />
+    <meta name="robots" content="index, follow" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    
+    <!-- Link to the sitemap -->
+    <link rel="sitemap" type="application/xml" href="sitemap.php">
+    
+    <link
+      rel="icon"
+      type="image/png"
+      href="images/profile.png"
+      sizes="196x196"
+    />
+    <meta name="application-name" content="Vismaya N T" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta
+      name="msapplication-TileImage"
+      content="images/profile.png"
+    />
+    <meta property="og:title" content="Vismaya N T" />
+    <meta property="og:site_name" content="Vismaya N T" />
+    <meta property="og:url" content="#" />
+    <meta
+      property="og:description"
+      content="Computer Science and Engineering Student | Enthusiast | Learner"
+    />
+    <meta property="og:type" content="profile" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <div class="bg-struct bg-img"></div>
+      <div class="mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+          <div class="mdl-layout__header-row mdl-scroll-spy-1">
+            <a href="index.html"
+              ><span class="mdl-layout-title">Vismaya N T</span></a
+            >
+            <div class="mdl-layout-spacer"></div>
+            <ul class="nav mdl-navigation mdl-layout--large-screen-only">
+              <li>
+                <a class="mdl-navigation__link" data-scroll href="#body"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mdl-navigation__link"
+                  data-scroll
+                  href="#portfolio_sec"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a class="mdl-navigation__link" data-scroll href="#interest_sec"
+                  >Interests</a
+                >
+              </li>
+              <li>
+                <a class="mdl-navigation__link" data-scroll href="#project_sec"
+                  >Projects</a
+                >
+              </li>
+              <li>
+                <a class="mdl-navigation__link" data-scroll href="#contact_sec"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </header>
+
+        <div class="main-content relative">
+          <div class="container">
+            <section class="about-sec mt-180 mt-sm-120 mb-30">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="mdl-card mdl-shadow--2dp">
+                    <div class="row">
+                      <div class="col-md-5 col-xs-12 mb-30">
+                        <img
+                          class="candidate-img mb-35"
+                          src="images/profile.png"
+                        />
+                        <ul class="social-icons">
+                          <li>
+                            <a class="linkedin-link" href="https://www.linkedin.com/in/vismaya-n-t-4a27aa300">
+                              <i id="tt3" class="zmdi zmdi-linkedin"></i>
+                              <div class="mdl-tooltip" data-mdl-for="tt3">
+                                LinkedIn
+                              </div>
+                            </a>
+                          </li>
+                          <li>
+                            <a class="instagram-link" href="https://www.instagram.com/vismaya..?utm_source=qr&igsh=eTY3MnVicHhtZzky">
+                              <i id="tt5" class="zmdi zmdi-instagram"></i>
+                              <div class="mdl-tooltip" data-mdl-for="tt5">
+                                Instagram
+                              </div>
+                            </a>
+                          </li>
+                          <li>
+                            <a class="facebook-link" href="https://www.facebook.com/profile.php?id=61559080569300">
+                              <i id="tt1" class="zmdi zmdi-facebook"></i>
+                              <div class="mdl-tooltip" data-mdl-for="tt1">
+                                Facebook
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-md-7 col-xs-12">
+                        <div class="info-wrap">
+                          <h1>Vismaya N T</h1>
+                          <h5 class="mt-20 font-grey">
+                            Computer Science and Engineering Student | Enthusiast | Learner
+                          </h5>
+                          <ul class="profile-wrap mt-50">
+                            <li>
+                              <div class="profile-title">
+                                &#128104; &#8205; &#127891; Education:
+                              </div>
+                              BE in Computer Science and Engineering (Ongoing) at KVG College of Engineering, Sullia
+                            </li>
+                            <li>
+                              <div class="profile-title">&#x1F4D6; Interests:</div>
+                              Music, Art, Trekking, Reading, Travelling, Movies
+                            </li>
+                            <li>
+                              <div class="profile-title">💻 Skills:</div>
+                              Working on building my skills
+                            </li>
+                            <li>
+                              <div class="profile-title">&#x1F393; Experience:</div>
+                              Student
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            
+            <section id="project_sec" class="blog-sec sec-pad-top-sm">
+              <h2 class="mb-30">Projects and Work</h2>
+              <p>This is my first and foremost project, and I am definitely looking forward to doing more.</p>
+            </section>
+            
+            <section id="contact_sec" class="contact-sec sec-pad-top-sm">
+              <h2 class="mb-35">Contact</h2>
+              <div class="row">
+                <div class="col-sm-12 mb-30">
+                  <div class="mdl-card mdl-shadow--2dp text-center">
+                    <h4 class="mb-10 font-unsetcase">Find me on.</h4>
+                    <ul class="social-icons mt-10">
+                      <li>
+                        <a
+                          class="linkedin-link"
+                          href="https://www.linkedin.com/in/vismaya-n-t-4a27aa300"
+                        >
+                          <i id="tt8" class="zmdi zmdi-linkedin"></i>
+                          <div  data-mdl-for="tt8">
+                            LinkedIn
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="instagram-link"
+                          href="https://www.instagram.com/vismaya..?utm_source=qr&igsh=eTY3MnVicHhtZzky"
+                        >
+                          <i id="tt10" class="zmdi zmdi-instagram"></i>
+                          <div  data-mdl-for="tt10">
+                            Instagram
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="facebook-link"
+                          href="https://www.facebook.com/profile.php?id=61559080569300"
+                        >
+                          <i id="tt9" class="zmdi zmdi-facebook"></i>
+                          <div  data-mdl-for="tt9">
+                            Facebook
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="email-link" href="mailto:ntvismaya9@gmail.com">
+                          <i id="tt9" class="zmdi zmdi-email"></i>
+                          <div  data-mdl-for="tt9">
+                            Email
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <footer
+              class="footer-sec sec-pad-top-sm sec-pad-bottom text-center"
+            >
+              <h4>Thank you for visiting!</h4>
+              <p class="mt-10">
+                Vismaya N T
+
