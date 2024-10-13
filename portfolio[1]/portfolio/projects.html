@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vismaya N T | Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #0F2027, #203A43, #2C5364);
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .options {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1;
+            display: flex;
+            gap: 20px;
+        }
+
+        .options a {
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .options a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .welcome-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 5rem;
+            font-weight: 700;
+            color: #f5f5f5;
+            margin-bottom: 10px;
+            animation: fadeIn 2s ease;
+            text-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .content {
+            display: flex;
+            width: 80%;
+            margin-top: 30px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .project-card {
+            flex: 1 1 calc(30% - 40px);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+            position: relative;
+            color: white;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .project-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .project-description {
+            font-size: 1rem;
+        }
+
+        .project1 {
+            background-image: url('images/project1-bg.jpg');
+        }
+
+        .project2 {
+            background-image: url('images/project2-bg.jpg');
+        }
+
+        .project3 {
+            background-image: url('images/project3-bg.jpg');
+        }
+
+        footer {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            color: #ddd;
+            font-size: 0.9rem;
+        }
+
+        footer p {
+            margin-bottom: 0;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="options">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="welcome-text">MY PROJECTS</div>
+    <div class="content">
+        <div class="project-card project1">
+            <div class="project-title">Project 1 Title</div>
+            <div class="project-description">Brief description of project 1. What it does and its key features.</div>
+        </div>
+        <div class="project-card project2">
+            <div class="project-title">Project 2 Title</div>
+            <div class="project-description">Brief description of project 2. What it does and its key features.</div>
+        </div>
+        <div class="project-card project3">
+            <div class="project-title">Project 3 Title</div>
+            <div class="project-description">Brief description of project 3. What it does and its key features.</div>
+        </div>
+    </div>
+    <footer>
+        <p>Thank you for visiting! © Vismaya N T</p>
+    </footer>
+</body>
+</html>
