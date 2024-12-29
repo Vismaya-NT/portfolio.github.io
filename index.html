@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vismaya N T | Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet"> 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #0F2027, #203A43, #2C5364);
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .options {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1;
+            display: flex;
+            gap: 20px;
+        }
+
+        .options a {
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .options a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .welcome-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 5rem;
+            font-weight: 700;
+            color: #f5f5f5;
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease;
+            text-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .content {
+            display: flex;
+            width: 80%;
+            margin-top: 30px;
+            justify-content: space-between;
+        }
+
+        .left-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .vismaya-name {
+            font-size: 4rem;
+            font-weight: bold;
+            color: #F0E68C;
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .vismaya-name::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 3px;
+            background: #F0E68C;
+            bottom: -5px;
+            left: 0;
+            transition: width 0.5s ease;
+        }
+
+        .vismaya-name:hover::after {
+            width: 100%;
+        }
+
+        .text-lines {
+            font-size: 1.5rem;
+            color: #f5f5f5;
+            margin-bottom: 20px;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 1s ease forwards;
+        }
+
+        .text-lines:nth-child(2) {
+            animation-delay: 0.5s;
+        }
+
+        .text-lines:nth-child(3) {
+            animation-delay: 1s;
+        }
+
+        .text-lines:nth-child(4) {
+            animation-delay: 1.5s;
+        }
+
+        .right-column {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .slideshow {
+            position: relative;
+            width: 350px;
+            height: 350px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            background: #222;
+        }
+
+        .slideshow img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            animation: fade 18s infinite;
+        }
+
+        @keyframes fade {
+            0% { opacity: 1; }
+            17% { opacity: 1; }
+            25% { opacity: 0; }
+            92% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .slideshow img:nth-child(1) {
+            animation-delay: 0s;
+        }
+
+        .slideshow img:nth-child(2) {
+            animation-delay: 6s;
+        }
+
+        .slideshow img:nth-child(3) {
+            animation-delay: 12s;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        footer {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            color: #ddd;
+            font-size: 0.9rem;
+        }
+
+        footer p {
+            margin-bottom: 0;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="options">
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="welcome-text">WELCOME</div>
+    <div class="content">
+        <div class="left-column">
+            <div class="vismaya-name">VISMAYA N T</div>
+            <div class="text-lines">Computer Science & Engineering | Enthusiast | Learner</div>
+            <div class="text-lines">Passionate about technology and coding.</div>
+            <div class="text-lines">Aspiring developer and lifelong learner.</div>
+        </div>
+        <div class="right-column">
+            <div class="slideshow">
+                <img src="c:\Users\ntvis\OneDrive\Documents\portfolio[1]\portfolio\profilepic\image3.jpg" alt="Image1">
+                <img src="c:\Users\ntvis\OneDrive\Documents\portfolio[1]\portfolio\profilepic\image2.jpg" alt="Image2">
+                <img src="c:\Users\ntvis\OneDrive\Documents\portfolio[1]\portfolio\profilepic\image1.jpg" alt="Image3">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Thank you for visiting! © Vismaya N T</p>
+    </footer>
+</body>
+</html>

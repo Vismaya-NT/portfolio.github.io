@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vismaya N T | Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #0F2027, #203A43, #2C5364);
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .options {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1;
+            display: flex;
+            gap: 20px;
+        }
+
+        .options a {
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .options a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .contact-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 5rem;
+            font-weight: 700;
+            color: #f5f5f5;
+            margin-bottom: 20px;
+        }
+
+        .get-in-touch {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            max-width: 400px;
+            margin-bottom: 30px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            border: none;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 1rem;
+            transition: background 0.3s ease;
+        }
+
+        .contact-form input:focus, .contact-form textarea:focus {
+            background: rgba(255, 255, 255, 0.3);
+            outline: none;
+        }
+
+        .social-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            transition: background 0.3s ease;
+        }
+
+        .social-link:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .social-link img {
+            margin-right: 10px;
+            width: 25px;
+            height: 25px;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            color: #ddd;
+            font-size: 0.9rem;
+        }
+
+        footer p {
+            margin-bottom: 0;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="options">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+    </div>
+    <div class="contact-title">CONTACT ME</div>
+    <div class="get-in-touch">Get in touch</div>
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+    </form>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/vismaya-n-t-4a27aa300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link">
+            <img src="images/linkedin-icon.png" alt="LinkedIn"> LinkedIn
+        </a>
+        <a href="https://github.com/Vismaya-NT" class="social-link">
+            <img src="images/github-icon.png" alt="GitHub"> GitHub
+        </a>
+        <a href="mailto:ntvismaya9@gmail.com" class="social-link">
+            <img src="images/twitter-icon.png" alt="email"> email
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=61559080569300&mibextid=ZbWKwL" class="social-link">
+            <img src="images/facebook-icon.png" alt="Facebook"> Facebook
+        </a>
+    </div>
+    <footer>
+        <p>Thank you for visiting! © Vismaya N T</p>
+    </footer>
+</body>
+</html>

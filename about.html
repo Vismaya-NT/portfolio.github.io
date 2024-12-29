@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vismaya N T | About</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #0F2027, #203A43, #2C5364);
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .options {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1;
+            display: flex;
+            gap: 20px;
+        }
+
+        .options a {
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .options a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .about-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 5rem;
+            font-weight: 700;
+            color: #f5f5f5;
+            margin-bottom: 20px;
+        }
+
+        .about-content {
+            width: 80%;
+            max-width: 800px;
+            margin-top: 20px;
+            text-align: left;
+            line-height: 1.6;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            color: #ddd;
+            font-size: 0.9rem;
+        }
+
+        footer p {
+            margin-bottom: 0;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="options">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="about-title">ABOUT ME</div>
+    <div class="about-content">
+        <p>Hi, I'm Vismaya N T, a computer science student with a passion for technology and innovation. I love exploring new ideas and pushing the boundaries of what’s possible with code.</p>
+        <p>My journey in technology started at a young age, and since then, I have been on a mission to learn as much as I can. Whether it's programming, web development, or data science, I am always eager to take on new challenges.</p>
+        <p>In addition to my studies, I enjoy collaborating on projects, participating in hackathons, and contributing to open-source initiatives. I believe in the power of community and shared knowledge to drive progress.</p>
+    </div>
+    <footer>
+        <p>Thank you for visiting! © Vismaya N T</p>
+    </footer>
+</body>
+</html>
